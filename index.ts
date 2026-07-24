@@ -24,3 +24,6 @@ function checkUserAccess(user: User): string{
     return 'Erişim reddedildi: ${user.username}';
   }
 }
+
+//Konsola yazdıralım
+console.log(checkUserAccess(currentUser));
